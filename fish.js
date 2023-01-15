@@ -116,7 +116,7 @@ class Fish {
 	
 }
 
-
+let numFish = 0;
 
 let fish = [];
 
@@ -127,24 +127,16 @@ let fish = [];
 //}
 
 fish[fish.length] = new Fish("lager");
+numFish++;
+document.getElementById("count").innerHTML = "there's " + numFish + " of em";
+
+
 
 //List all fish
 for(const Element of fish){
 	Element.iamfish();
 }
 	
-
-
-// const timeID = setInterval(beFish, 1000);
-
-//function beFish(){
-	
-	// for(const Element of fish){
-		// Element.flip();
-	// }
-	
-// }
-
 var timeID = setInterval(moveFish, 1);
 
 function moveFish(){
@@ -184,7 +176,15 @@ function clickHandler(e) {
 	e.target.remove();
 	new Audio('shotgun.mp3').play()
 	//new Audio('robloxexplosion.mp3').play()
+	numFish -=1;
+	if(numFish != 0){
+	document.getElementById("count").innerHTML = "there's " + numFish + " of em";
+	}
 	
+	if(numFish == 0){
+		document.getElementById("count").innerHTML = "there's none of em";
+		fish = [];
+	}
 }
 
 function removeExplosion(image){
@@ -201,9 +201,12 @@ function addMoreFish(){
 	for (let i = fish.length; i < (newLength); i++) {
 	const species = ["carp", "trout", "pike","salmon"];
 	fish[fish.length] = new Fish(species[Math.floor(Math.random() * species.length)]);
+	numFish++
+	
 	}
 	
 	console.log("added more fish");
+	document.getElementById("count").innerHTML = "there's " + numFish + " of em";
 	//fish[fish.length] = new Fish("pike");
 	
 }
