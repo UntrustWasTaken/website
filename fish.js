@@ -121,10 +121,10 @@ class Fish {
 let fish = [];
 
 
-for (let i = 0; i < 10; i++) {
-	const species = ["carp", "trout", "pike","salmon"];
-	fish[i] = new Fish(species[Math.floor(Math.random() * species.length)]);
-}
+//for (let i = 0; i < 10; i++) {
+//	const species = ["carp", "trout", "pike","salmon"];
+//	fish[i] = new Fish(species[Math.floor(Math.random() * species.length)]);
+//}
 
 fish[fish.length] = new Fish("lager");
 
@@ -145,10 +145,9 @@ for(const Element of fish){
 	
 // }
 
-const timeID = setInterval(moveFish, 1);
+var timeID = setInterval(moveFish, 1);
 
 function moveFish(){
-	
 	for(const Element of fish){
 		Element.move();
 	}
@@ -190,4 +189,21 @@ function clickHandler(e) {
 
 function removeExplosion(image){
 	image.remove();
+}
+
+function addMoreFish(){
+	
+	for(const Element of fish){
+	Element.iamfish();
+	}
+	
+	var newLength = fish.length + 5;
+	for (let i = fish.length; i < (newLength); i++) {
+	const species = ["carp", "trout", "pike","salmon"];
+	fish[fish.length] = new Fish(species[Math.floor(Math.random() * species.length)]);
+	}
+	
+	console.log("added more fish");
+	//fish[fish.length] = new Fish("pike");
+	
 }
