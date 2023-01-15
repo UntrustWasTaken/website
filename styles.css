@@ -16,12 +16,20 @@ P{
 	color: black;
 	font-size: 25px;
 }
+button{
+	margin: auto;
+	text-align: center;
+	font-size:25px;
+	z-index: 20;
+}
+
 
 #funny {
   position: absolute;
 }
 #fish {
   position: absolute;
+  z-index: 0;
 }
 #hole {
   position: absolute;
