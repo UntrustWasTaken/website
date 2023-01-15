@@ -3,8 +3,8 @@ class Fish {
 		this.name = name;
 		let rotY = 0;
 	
-		//this.dir = Math.floor(Math.random() * 4)+1;
-		this.dir = 2
+		this.dir = Math.floor(Math.random() * 4)+1;
+		//this.dir = 2
 		this.img = document.createElement('img');
 		this.img.src = "fish/" + name + ".png";
 		this.img.id = "fish";
