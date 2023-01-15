@@ -1,4 +1,4 @@
-timeID = setInterval(myFunction, 1);
+timeID2 = setInterval(myFunction, 1);
 var i = 1;
 var rotY = 0;
 

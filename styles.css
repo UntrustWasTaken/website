@@ -10,7 +10,6 @@ H1 {
 	color: black;
 	font-size: 50px;
 }
-
 P{
 	font-family: "Verdana";
 	color: black;
@@ -22,8 +21,6 @@ button{
 	font-size:25px;
 	z-index: 20;
 }
-
-
 #funny {
   position: absolute;
 }
@@ -35,7 +32,6 @@ button{
   position: absolute;
   z-index: -1;
 }
-
 .center {
   margin: auto;
   width: 60%;

@@ -129,7 +129,7 @@ let fish = [];
 fish[fish.length] = new Fish("lager");
 numFish++;
 document.getElementById("count").innerHTML = "there's " + numFish + " of em";
-
+console.log(document.getElementById("count"));
 
 
 //List all fish
@@ -148,7 +148,7 @@ function moveFish(){
 
 
 function clickHandler(e) {
-    console.log(e.target);
+    //console.log(e.target);
 	
 	hole = document.createElement('img');
 	hole.src = "hole3.png";
