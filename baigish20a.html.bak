@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" href="styles.css">
+
+<head>
+<title>Baigish 20a</title>
+<h1>Baigish 20a</h1>
+</head>
+
+
+<div>
+<img src="images/baigish20a.jfif" height = 500vh alt="Baigish 20a night vision goggles"></img>
+<img src="http://kodu.neti.ee/~kalleb/forsale/optic/night6.jpg" height = 500vh alt="Baigish 20a night vision goggles, closeup picture and small snapshot of manual"></img>
+
+</div>
+	
+<h3>The Baigish 20a is a first generation night vision device. It contains two first generation tubes in a single unit which also contains the high voltage power supply and an IR LED illuminator. The goggles are on a propriatary mount which is secured to a leather skullcrusher. A battery pack is mounted on the rear of the skullcrusher, with a control panel holding a power switch for the device and for the IR illuminator. </h3>
+<h3>On the underside of the device there is a knob which can be turned to adjust the interpupillary distance. A protective cover for the front end of the device is sometimes seen. It appeas to clip into the square recess on the front of the device. It also comes with a protective metal case with a polystyrene insert to hold all of the various parts and accessories for the device. A small leather strap feeds through this insert to hold the battery charger in place.</h3>
+
+<h3>Behind the panel on the battery box is a small circuit board with two resistors, a diode and one or two transisotrs, likely for reverse polarity protection. The device runs off a 3V battery, which was originally supplied with the device along with a large battery charger. At some point a plastic adapter for two AA batteries was included that interfaced with the existing battery contacts. The adapter is keyed so that it cannot be inserted the wrong way up. A large screw cap keeps the battery in place once inserted. A four pin keyed connector connects the battery pack to the goggles. One of the pins is unused. The + side of the battery is always connected to the device, with the - terminal connected to the goggles depending on the power switches on the battery pack.</h3>
+
+<h3>Most of the bolts that hold the device together are M2 sized. A few of them screw into threaded holes but most of them are fastened with an M2 nut on the other side. The goggles have a metal frame around the edge that two plastic panels bolt into. Each panel is secured with 4 bolts, one at each corner. To remove these panels you need to remove a screw holding the interpupillary distance adjustment knob in place and then pull it off. There is another threaded part that keeps it held into the panel. Unscrew the bolts in each corner of the panels and then gently pry around the cover with a plastic tool. One side can be completely removed, the other is held in by a socketed high voltage module that connects to a circuit board on the other side of the image intenfifier tubes. This socketed component is held in with a large bolt, the pcb held by two M2 bolts. Remove these in order to remove the circuit board and free up the other panel. That panel appears to have a high voltage module enclosed in plastic which is bolted to the panel with 2 bolts, visible on either side of the serial number plate. A high voltage insulated wire runs from this component to the image intensifier tubes.</h3>
+<h3></h3>
+   
+<h3><a href="https://ronbo.ru/nvgoggles-en.html">https://ronbo.ru/nvgoggles-en.html</a></h3>
+<h3><a href="https://geosalon.kiev.ua/ru/binokli/pribori_nochnogo_videnija_opisanie/ochki_nochnogo_videnija_bajgish-20a.html">https://geosalon.kiev.ua/ru/binokli/pribori_nochnogo_videnija_opisanie/ochki_nochnogo_videnija_bajgish-20a.html</a></h3>
+
+<h3><a href="https://www.icollector.com/Russian-Night-Vision-Goggles_i21665797">link text</a></h3>
+<h3><a href="http://kodu.neti.ee/~kalleb/forsale/optic/page_01.htm">http://kodu.neti.ee/~kalleb/forsale/optic/page_01.htm</a></h3>
+
+</html>

@@ -14,7 +14,16 @@ P{
 	font-family: "Verdana";
 	color: black;
 	font-size: 25px;
+	line-height: 50px;
 }
+
+P2{
+	font-family: "Verdana";
+	color: black;
+	font-size: 15px;
+	line-height: 25px;
+}
+
 button{
 	margin: auto;
 	text-align: center;
@@ -34,6 +43,6 @@ button{
 }
 .center {
   margin: auto;
-  width: 60%;
+  width: 100%;
   text-align: center;
 }

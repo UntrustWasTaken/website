@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" href="styles.css">
+<script src="myScript.js"></script>
+
+<head>
+<title>cool website</title>
+</head>
+
+<body>
+
+<div class="center"> 
+<h1>untrust epic website</h1>
+<p>Check these outttt</p>
+<iframe class="ranmarg" width="560" height="315" src="https://www.youtube.com/embed/WyeMyhKE5Yw" frameborder="0"allowfullscreen></iframe>
+<video class="ranmarg" width="315" height="315" controls>
+  <source src="augh.mp4" type="video/mp4">
+</video>
+</div>
+<div class="center">
+
+<img class="ranmarg" src="bounce.gif" alt="a plane bouncing up and down with volume slider" style="width:415px;height:315px;">
+</div>
+
+
+<div><button onclick="addMoreFish()">MOAR FISH!</button></div>
+<div>did you click them all yet?</div>
+<div id=count>there's 1 of em</div>
+
+<p><a href="nvg.html">night vision stuff</a></p>
+
+<div><img id="funny" src="broznoi.webp" alt="funny image of a borzoi dog with some arabic text above it"></img></div>
+
+
+
+<script src="fish.js"></script>
+
+<script>
+var elements = document.getElementsByClassName("ranmarg");
+for (const element of elements) {
+    //element.style = "margin: "+ (Math.random() * (100 - 10) + 10) + "px;";
+	element.style = "margin-left: " + (Math.random() * (100 - 10) + 10) + "px;"+"margin-bottom: " + (Math.random() * (100 - 10) + 10) + "px;";
+	
+	
+	
+  
+}
+</script>
+
+</html>

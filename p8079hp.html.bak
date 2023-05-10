@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" href="styles.css">
+
+<head>
+<title>p8079hp</title>
+<h1>p8079hp</h1>
+</head>
+
+
+<div>
+<img src="images/p8079hp.jpg" height = 500vh alt="p8079hp image intensifier tube"></img>
+<img src="images/p8079hptest1.webp" height = 500vh alt="p8079hp image intensifier tube"></img>
+</div>
+	
+<h3>The P8079HP is a first generation cascade image intensifier tube. It contains 3 image intensifiers coupled together in a single housing. The tube has Automatic Brightness Control and an integrated power supply allowing it to be run straight from a 6v battery.</h3>
+<h3>This tube has pretty good sensitivity and produced a pretty good image with no IR illumination.</h3>
+<h3>Unfortunately the major disadvantage this tube has is size and weight. It is completely impractical for use in goggles and is much better suited to scopes, originally being used for driver and commander's sights in British armoured vehicles. It's quite popular in astronomy and stargazing groups online, as it can easily be outfitted with a fast camera lens as an objective lens and a magnifying loupe on the output. Housings have been seen made from PVC pipe fittings, 3d printed parts and machined aluminium. It also has quite a bit of pincushion distortion.</h3>
+   
+   
+<h3><a href="https://www.nightlase.com.au/content/docs/EEV_P8079HP.pdf">Datasheet</a></h3>
+<h3><a href="EEV_P8079HP.pdf">Datasheet backup</a></h3>
+<h3><a href="https://www.cloudynights.com/topic/639758-another-p8079hp-project/">https://www.cloudynights.com/topic/639758-another-p8079hp-project/</a></h3>
+<h3><a href="https://aunv.blackice.com.au/forum?index=projects&story=cascade">https://aunv.blackice.com.au/forum?index=projects&story=cascade</a></h3>
+<h3><a href="https://aunv.blackice.com.au/forum?index=projects&story=cascade&chapter=0003">Aluminium housing project</a></h3>
+
+
+
+<h3><a href="url">link text</a></h3>
+<h3><a href="url">link text</a></h3>
+<h3><a href="url">link text</a></h3>
+<h3><a href="url">link text</a></h3>
+
+
+<a href="url">link text</a>
+<a href="url">link text</a>
+
+https://www.cloudynights.com/topic/570847-project-for-a-little-intensified-telescope-p8079hp-and-future-hybrid-evolution/
+
+</html>

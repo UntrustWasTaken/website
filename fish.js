@@ -121,6 +121,13 @@ let numFish = 0;
 let fish = [];
 
 
+//document.onclick= function(event) {
+    // Compensate for IE<9's non-standard event model
+    //
+   // if (event===undefined) event= window.event;
+   // document.getElementById("music").play();
+//};
+
 //for (let i = 0; i < 10; i++) {
 //	const species = ["carp", "trout", "pike","salmon"];
 //	fish[i] = new Fish(species[Math.floor(Math.random() * species.length)]);
