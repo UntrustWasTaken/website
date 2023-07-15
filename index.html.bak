@@ -17,12 +17,26 @@
 <video class="ranmarg" width="315" height="315" controls>
   <source src="augh.mp4" type="video/mp4">
 </video>
+<audio controls>
+  <source src="music.mp3" type="audio/mpeg">
+Your browser does not support the audio element. LOL!
+</audio>
 </div>
+
 <div class="center">
-
 <img class="ranmarg" src="bounce.gif" alt="a plane bouncing up and down with volume slider" style="width:415px;height:315px;">
+<video controls>
+  <source src="FishsayAllah1.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 </div>
 
+<div class="center">
+<video controls>
+  <source src="FishsayAllah2.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>
 
 <div><button onclick="addMoreFish()">MOAR FISH!</button></div>
 <div>did you click them all yet?</div>
@@ -40,7 +54,7 @@
 var elements = document.getElementsByClassName("ranmarg");
 for (const element of elements) {
     //element.style = "margin: "+ (Math.random() * (100 - 10) + 10) + "px;";
-	element.style = "margin-left: " + (Math.random() * (100 - 10) + 10) + "px;"+"margin-bottom: " + (Math.random() * (100 - 10) + 10) + "px;";
+	element.style = "margin-left: " + (Math.random() * (100 - 10) + 10) + "px;"+"margin-bottom: " + (Math.random() * (100 - 10) + 10) + "px;"+"margin-top: " + (Math.random() * (100 - 10) + 10) + "px;"+"margin-right: " + (Math.random() * (100 - 10) + 10) + "px;";
 	
 	
 	
